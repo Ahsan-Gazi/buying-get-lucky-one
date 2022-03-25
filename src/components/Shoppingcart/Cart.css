@@ -1,0 +1,23 @@
+.cart{
+    position: sticky;
+    
+    top: 20px;
+    padding: 30px 20px;
+    height: 400px;
+    display: flex;
+    
+    align-items: center;
+   
+    gap: 5px;
+    justify-content: center;
+    
+    
+    background-color: yellowgreen;
+}
+
+.cart-button{
+    gap: 30px;
+    border:5px solid gold;
+    border-radius: 10px ;
+    
+}
