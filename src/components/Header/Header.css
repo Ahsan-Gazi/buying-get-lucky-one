@@ -1,0 +1,13 @@
+.header{
+    height: 80px;
+    background-color:cornflowerblue;
+    /* align-items: center; */
+    text-align: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-top: 0px;
+}
+
+.headerh2{
+    text-align: center;
+}
