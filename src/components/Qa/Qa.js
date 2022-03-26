@@ -5,7 +5,7 @@ const Qa = () => {
     return (
         <div>
             <div className='QAns'>
-                <h2>How React works?</h2>
+                <h2>How does React work?</h2>
                 <p>First of all React is a JavaScript library That's why we can use JavaScript code here.</p>
                 <p>Html code can be infused in building react app</p>
                 <p>In React Users can create representation of a DOM node by declaring the Element function</p>
@@ -19,6 +19,14 @@ const Qa = () => {
                 <p>Props' performances are high but state 's performance is less than props</p>
                 <p>Staleless component can only be used only for props but not for state</p>
                 <h2>How does useState Work?</h2>
+                <p>UseState is one of the most powerful things in react</p>
+                <p>useState is a hook that allows the user to have state variables in functional components</p>
+                <p>After passing the initial  state to this function<br/> and it returns a variable with the current state value</p>
+                <p>Another task of useState is to update the value of function</p>
+                <p>There are two types of components in react:</p>
+                <p>They are:class components and functional components</p>
+                <p>Functional component accept parameter and return valid JSX</p>
+                <p></p>
             </div>
         </div>
     );
