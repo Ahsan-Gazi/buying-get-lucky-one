@@ -8,3 +8,7 @@
     gap: 45px;
     margin: 100px 50px;
 }
+.selecteditem{
+    text-align: center;
+    background-color:cadetblue;
+}
