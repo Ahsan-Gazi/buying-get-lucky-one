@@ -7,6 +7,7 @@ import {faDeleteLeft} from '@fortawesome/free-solid-svg-icons'
 
 const Cart = (props) => {
     // const{name,img}=props.cart;
+    // const{removeSingleItem}=props.id
     
   
 
@@ -21,14 +22,15 @@ const Cart = (props) => {
                         
                     <div className='imgcart2' key={pd.id}>
                        <img className='imgcart' src={pd.img} alt=''/>
-                           <h3>{pd.name}<button><FontAwesomeIcon icon={faDeleteLeft}></FontAwesomeIcon></button></h3>
+                           <h3>{pd.name}
+                           <button onClick={()=>props.removeSingleItem(pd.id)}><FontAwesomeIcon icon={faDeleteLeft}></FontAwesomeIcon></button></h3>
                     </div>)
                 }
            
            
             </div>
              <div>
-             <button  className='cart-button'>
+             <button onClick={props.handleForOne}  className='cart-button'>
                 <p >Choose one for me</p>
             </button>
             </div>
